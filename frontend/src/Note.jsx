@@ -10,7 +10,7 @@ export default function Note() {
   const [notes, setNotes] = useState([]);
   const [newTag, setNewTag] = useState("");
   const [editNoteId, setEditNoteId] = useState(null);
-  const apiUrl = https://notesapp-qobz.onrender.com;
+  const apiUrl = "https://notesapp-qobz.onrender.com";
 
   const { email, profilePic, logOut } = useContext(UserContext);
 
