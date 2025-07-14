@@ -5,7 +5,7 @@ import axios  from "axios";
 
 export default function Login() {
 
-  const apiUrl = https://notesapp-qobz.onrender.com;
+  const apiUrl = "https://notesapp-qobz.onrender.com";
 
   const navigate = useNavigate();
   const {setEmail} = useContext(UserContext);
