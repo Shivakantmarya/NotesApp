@@ -5,7 +5,7 @@ import axios  from "axios";
 
 export default function Login() {
 
-  const apiUrl = import.meta.env.VITE_API_URL;
+  const apiUrl = "https://notesapp-qobz.onrender.com";
 
   const navigate = useNavigate();
   const {setEmail} = useContext(UserContext);

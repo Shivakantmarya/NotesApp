@@ -3,8 +3,8 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 
 export default function Signup() {
-  const apiUrl = import.meta.env.VITE_API_URL;
-  console.log("api Url", apiUrl);
+  const apiUrl = "https://notesapp-qobz.onrender.com";
+  // console.log("api Url", apiUrl);
 
   const navigate = useNavigate();
   const [data, setData] = useState({
